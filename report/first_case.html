@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>this is first report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2022-10-09 22:06:37</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:05.311775</p>
-<p class='attribute'><strong>Status:</strong> Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2022-10-10 20:48:05</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:06.842486</p>
+<p class='attribute'><strong>Status:</strong> Pass 4 Failure 1</p>
 
 <p class='description'>这是我们第一次测试报告</p>
 </div>
@@ -221,22 +221,22 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
+<tr class='failClass'>
     <td>FistCase</td>
+    <td>5</td>
+    <td>4</td>
     <td>1</td>
     <td>0</td>
-    <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',5)">Detail</a></td>
 </tr>
 
 <tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>testLoginEmailError</div></td>
+    <td class='failCase'><div class='testcase'>testLoginEmailError</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
+        fail</a>
 
     <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
@@ -246,46 +246,110 @@ function showOutput(id, name) {
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "D:\pythonSelenium\case\fist_case.py", line 26, in testLoginEmailError
-    emailError = self.login.loginEmailError('88@qq.com','1111','11111','111')
-  File "D:\pythonSelenium\business\register_business.py", line 26, in loginEmailError
-    self.userBase(email,name,password,code)
-  File "D:\pythonSelenium\business\register_business.py", line 8, in userBase
-    self.registerH.sendUserEmail(email)
-  File "D:\pythonSelenium\handle\register_handle.py", line 10, in sendUserEmail
-    self.registerP.getEmailElement().send_keys(email)
-  File "D:\pythonSelenium\page\register_page.py", line 8, in getEmailElement
-    return self.fd.getElement("userEmail")
-  File "D:\pythonSelenium\base\find_element.py", line 12, in getElement
-    date = readIni.getValue(key)
-  File "D:\pythonSelenium\util\read_ini.py", line 23, in getValue
-    date = self.cf.get(self.node,key)
-  File "D:\Program Files\Python\lib\configparser.py", line 782, in get
-    d = self._unify_values(section, vars)
-  File "D:\Program Files\Python\lib\configparser.py", line 1153, in _unify_values
-    raise NoSectionError(section) from None
-configparser.NoSectionError: No section: 'RegisterElement'
+  File "E:\pythonSelenium1\case\fist_case.py", line 36, in testLoginEmailError
+    self.assertFalse(emailError,"邮箱格式正确")
+AssertionError: True is not false : 邮箱格式正确
 Traceback (most recent call last):
-  File "D:\pythonSelenium\case\fist_case.py", line 26, in testLoginEmailError
-    emailError = self.login.loginEmailError('88@qq.com','1111','11111','111')
-  File "D:\pythonSelenium\business\register_business.py", line 26, in loginEmailError
-    self.userBase(email,name,password,code)
-  File "D:\pythonSelenium\business\register_business.py", line 8, in userBase
-    self.registerH.sendUserEmail(email)
-  File "D:\pythonSelenium\handle\register_handle.py", line 10, in sendUserEmail
-    self.registerP.getEmailElement().send_keys(email)
-  File "D:\pythonSelenium\page\register_page.py", line 8, in getEmailElement
-    return self.fd.getElement("userEmail")
-  File "D:\pythonSelenium\base\find_element.py", line 12, in getElement
-    date = readIni.getValue(key)
-  File "D:\pythonSelenium\util\read_ini.py", line 23, in getValue
-    date = self.cf.get(self.node,key)
-  File "D:\Program Files\Python\lib\configparser.py", line 782, in get
-    d = self._unify_values(section, vars)
-  File "D:\Program Files\Python\lib\configparser.py", line 1153, in _unify_values
-    raise NoSectionError(section) from None
-configparser.NoSectionError: No section: 'RegisterElement'
+  File "E:\pythonSelenium1\case\fist_case.py", line 36, in testLoginEmailError
+    self.assertFalse(emailError,"邮箱格式正确")
+AssertionError: True is not false : 邮箱格式正确
 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testUsernameError</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testUserpasswordError</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testCodeError</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testLoginSuccess</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        pass</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: 
 
         </pre>
     </div>
@@ -296,10 +360,10 @@ configparser.NoSectionError: No section: 'RegisterElement'
 
 <tr id='total_row'>
     <td>Total</td>
+    <td>5</td>
+    <td>4</td>
     <td>1</td>
     <td>0</td>
-    <td>0</td>
-    <td>1</td>
     <td>&nbsp;</td>
 </tr>
 </table>

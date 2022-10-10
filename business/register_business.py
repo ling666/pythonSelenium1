@@ -36,7 +36,7 @@ class RegisterBusiness(object):
         self.userBase(email, name, password, code)
         # email是从case中传下来的
         if self.registerH.getUsertext('userNameError', "字符长度必须大于等于4，一个中文字算2个字符") == None:
-            print("用户名检验不成功")
+            print("用户名格式正确")
             return True
         else:
             return False
@@ -45,7 +45,7 @@ class RegisterBusiness(object):
         self.userBase(email, name, password, code)
         # email是从case中传下来的
         if self.registerH.getUsertext('passwordError', "最少需要输入 5 个字符") == None:
-            print("密码检验不成功")
+            print("密码格式正确")
             return True
         else:
             return False
@@ -55,7 +55,7 @@ class RegisterBusiness(object):
         self.userBase(email, name, password, code)
         # email是从case中传下来的
         if self.registerH.getUsertext('codeTextError', "验证码错误") == None:
-            print("验证码检验不成功")
+            print("验证码正确")
             return True
         else:
             return False
