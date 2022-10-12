@@ -4,7 +4,6 @@ import unittest
 import os
 import sys
 import time
-
 from business.register_business import RegisterBusiness
 from selenium import webdriver
 import unittest
@@ -33,7 +32,9 @@ class FirstDdtCase(unittest.TestCase):
         self.driver.close()
 
     @ddt.data(
-        ['email','username','password','code','assertCode','assertText']
+        ['88','1111','11111','111','userEmailError','请输入有效的电子邮件地址'],
+        ['@qq.com', '1111', '11111', '111', 'userEmailError', '请输入有效的电子邮件地址'],
+        ['88@qq.com', '1111', '11111', '111', 'userEmailError', '请输入有效的电子邮件地址']
     )
     @ddt.unpack
     def test_register_case(self,email,username,password,code,assertCode,assertText):
@@ -44,4 +45,9 @@ class FirstDdtCase(unittest.TestCase):
         #通过assert判断是否为error
 
 if __name__ == '__main__':
-    unittest.main()
+    file_path = os.path.join(os.getcwd(), ".." + "/report/" + "first_case1.html")
+    f = open(file_path, 'wb')
+    suite = unittest.TestLoader().loadTestsFromTestCase(FirstDdtCase)
+    runner = HTMLTestRunner.HTMLTestRunner(stream=f, title="this is first report", description=u"这是我们第一次测试报告",
+                                           verbosity=2)
+    runner.run(suite)

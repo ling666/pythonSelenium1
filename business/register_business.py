@@ -31,6 +31,15 @@ class RegisterBusiness(object):
         else:
             return False
 
+    def register_function(self,email,username,password,code,assertCode,assertText):
+        self.userBase(email, username, password, code)
+        # email是从case中传下来的
+        if self.registerH.getUsertext(assertCode, assertText) == None:
+            #print("邮箱格式正确")
+            return True
+        else:
+            return False
+
     #用户名错误
     def loginUsernameError(self, email, name, password, code):
         self.userBase(email, name, password, code)
