@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>this is first report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2022-10-10 20:48:05</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:06.842486</p>
-<p class='attribute'><strong>Status:</strong> Pass 4 Failure 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2022-10-13 15:10:14</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:02.599580</p>
+<p class='attribute'><strong>Status:</strong> Pass 2 Failure 1</p>
 
 <p class='description'>这是我们第一次测试报告</p>
 </div>
@@ -222,38 +222,30 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='failClass'>
-    <td>FistCase</td>
-    <td>5</td>
-    <td>4</td>
+    <td>FirstDdtCase</td>
+    <td>3</td>
+    <td>2</td>
     <td>1</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',5)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='failCase'><div class='testcase'>testLoginEmailError</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_register_case_1___88____user1111____11111____111____userEmailError____请输入有效的电子邮件地址__</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: Traceback (most recent call last):
-  File "E:\pythonSelenium1\case\fist_case.py", line 36, in testLoginEmailError
-    self.assertFalse(emailError,"邮箱格式正确")
-AssertionError: True is not false : 邮箱格式正确
-Traceback (most recent call last):
-  File "E:\pythonSelenium1\case\fist_case.py", line 36, in testLoginEmailError
-    self.assertFalse(emailError,"邮箱格式正确")
-AssertionError: True is not false : 邮箱格式正确
-
+pt1.1: 
 
         </pre>
     </div>
@@ -263,7 +255,7 @@ AssertionError: True is not false : 邮箱格式正确
 </tr>
 
 <tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testUsernameError</div></td>
+    <td class='none'><div class='testcase'>test_register_case_2____qq_com____user1111____11111____111____userEmailError____请输入有效的电子邮件地址__</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -286,70 +278,34 @@ pt1.2:
     </td>
 </tr>
 
-<tr id='pt1.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testUserpasswordError</div></td>
+<tr id='ft1.3' class='none'>
+    <td class='failCase'><div class='testcase'>test_register_case_3___90_qq_com____user1111____11111____111____userEmailError____请输入有效的电子邮件地址__</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        fail</a>
 
-    <div id='div_pt1.3' class="popup_window">
+    <div id='div_ft1.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.3: 
+ft1.3: Traceback (most recent call last):
+  File "D:\software\Python\Python38\lib\site-packages\ddt.py", line 220, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:/pythonSelenium1/case/first_ddt_case.py", line 49, in test_register_case
+    self.assertFalse(emailError,"邮箱格式正确")
+AssertionError: True is not false : 邮箱格式正确
+Traceback (most recent call last):
+  File "D:\software\Python\Python38\lib\site-packages\ddt.py", line 220, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:/pythonSelenium1/case/first_ddt_case.py", line 49, in test_register_case
+    self.assertFalse(emailError,"邮箱格式正确")
+AssertionError: True is not false : 邮箱格式正确
 
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt1.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testCodeError</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
-        pass</a>
-
-    <div id='div_pt1.4' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt1.4: 
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt1.5' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testLoginSuccess</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
-        pass</a>
-
-    <div id='div_pt1.5' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt1.5: 
 
         </pre>
     </div>
@@ -360,8 +316,8 @@ pt1.5:
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>5</td>
-    <td>4</td>
+    <td>3</td>
+    <td>2</td>
     <td>1</td>
     <td>0</td>
     <td>&nbsp;</td>

@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>this is first report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2022-10-10 20:48:05</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:06.842486</p>
-<p class='attribute'><strong>Status:</strong> Pass 4 Failure 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2022-10-11 20:11:08</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:36.822106</p>
+<p class='attribute'><strong>Status:</strong> Error 5</p>
 
 <p class='description'>这是我们第一次测试报告</p>
 </div>
@@ -221,22 +221,22 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='failClass'>
+<tr class='errorClass'>
     <td>FistCase</td>
     <td>5</td>
-    <td>4</td>
-    <td>1</td>
     <td>0</td>
+    <td>0</td>
+    <td>5</td>
     <td><a href="javascript:showClassDetail('c1',5)">Detail</a></td>
 </tr>
 
 <tr id='ft1.1' class='none'>
-    <td class='failCase'><div class='testcase'>testLoginEmailError</div></td>
+    <td class='errorCase'><div class='testcase'>testLoginEmailError</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        fail</a>
+        error</a>
 
     <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
@@ -246,13 +246,93 @@ function showOutput(id, name) {
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "E:\pythonSelenium1\case\fist_case.py", line 36, in testLoginEmailError
-    self.assertFalse(emailError,"邮箱格式正确")
-AssertionError: True is not false : 邮箱格式正确
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
 Traceback (most recent call last):
-  File "E:\pythonSelenium1\case\fist_case.py", line 36, in testLoginEmailError
-    self.assertFalse(emailError,"邮箱格式正确")
-AssertionError: True is not false : 邮箱格式正确
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>testUsernameError</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: Traceback (most recent call last):
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
+Traceback (most recent call last):
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
 
 
         </pre>
@@ -262,22 +342,54 @@ AssertionError: True is not false : 邮箱格式正确
     </td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testUsernameError</div></td>
+<tr id='ft1.3' class='none'>
+    <td class='errorCase'><div class='testcase'>testUserpasswordError</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        error</a>
 
-    <div id='div_pt1.2' class="popup_window">
+    <div id='div_ft1.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.2: 
+ft1.3: Traceback (most recent call last):
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
+Traceback (most recent call last):
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
+
 
         </pre>
     </div>
@@ -286,22 +398,54 @@ pt1.2:
     </td>
 </tr>
 
-<tr id='pt1.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testUserpasswordError</div></td>
+<tr id='ft1.4' class='none'>
+    <td class='errorCase'><div class='testcase'>testCodeError</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
+        error</a>
 
-    <div id='div_pt1.3' class="popup_window">
+    <div id='div_ft1.4' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.3: 
+ft1.4: Traceback (most recent call last):
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
+Traceback (most recent call last):
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
+
 
         </pre>
     </div>
@@ -310,46 +454,54 @@ pt1.3:
     </td>
 </tr>
 
-<tr id='pt1.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testCodeError</div></td>
+<tr id='ft1.5' class='none'>
+    <td class='errorCase'><div class='testcase'>testLoginSuccess</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
+        error</a>
 
-    <div id='div_pt1.4' class="popup_window">
+    <div id='div_ft1.5' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.4: 
+ft1.5: Traceback (most recent call last):
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
 
-        </pre>
-    </div>
-    <!--css div popup end-->
+Traceback (most recent call last):
+  File "E:/pythonSelenium1/case/fist_case.py", line 16, in setUp
+    self.driver = webdriver.Chrome()
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\software\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
 
-    </td>
-</tr>
 
-<tr id='pt1.5' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testLoginSuccess</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
-        pass</a>
-
-    <div id='div_pt1.5' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt1.5: 
 
         </pre>
     </div>
@@ -361,9 +513,9 @@ pt1.5:
 <tr id='total_row'>
     <td>Total</td>
     <td>5</td>
-    <td>4</td>
-    <td>1</td>
     <td>0</td>
+    <td>0</td>
+    <td>5</td>
     <td>&nbsp;</td>
 </tr>
 </table>
