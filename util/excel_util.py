@@ -21,15 +21,15 @@ class ExcelUtil:
             return result
         return None
     #获取Excel行数
-    def get_line(self):
+    def get_lines(self):
         rows = self.table.nrows  # 获取行数
         if rows >= 1:
             return rows
         return None
     #获取单元格数据
     def get_col_values(self,row,col):
-        if self.get_line()>row:
-            date = self.table.cell(4,3).value  #第4行第3列的数据
+        if self.get_lines()>row:
+            date = self.table.cell(row,col).value  #第4行第3列的数据
             return date
         return None
 
