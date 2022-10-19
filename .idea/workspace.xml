@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/keyword_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/keyword_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/keyword.xls" beforeDir="false" afterPath="$PROJECT_DIR$/config/keyword.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyword/action_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/keywordselenium/action_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/excel_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/excel_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keywordselenium/action_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/keywordselenium/action_method.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2G9p0UuH4sqJVnsaDS7nuevmUQI" />
   <component name="ProjectViewState">
@@ -197,6 +204,7 @@
       <workItem from="1665810431872" duration="12047000" />
       <workItem from="1666093269492" duration="5401000" />
       <workItem from="1666101455106" duration="1031000" />
+      <workItem from="1666180120947" duration="6566000" />
     </task>
     <servers />
   </component>
@@ -204,7 +212,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonSelenium1$keyword_case1.coverage" NAME="keyword_case1 Coverage Results" MODIFIED="1666102197229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$keyword_case1.coverage" NAME="keyword_case1 Coverage Results" MODIFIED="1666186522869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/pythonSelenium1$register_handle.coverage" NAME="register_handle Coverage Results" MODIFIED="1666100554741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handle" />
     <SUITE FILE_PATH="coverage/pythonSelenium1$action_method.coverage" NAME="action_method Coverage Results" MODIFIED="1666100564454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keywordselenium" />
     <SUITE FILE_PATH="coverage/pythonSelenium1$register_code.coverage" NAME="register_code Coverage Results" MODIFIED="1666100596711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumpython" />

@@ -13,7 +13,7 @@ class ActionMethod:
             self.driver = webdriver.Edge()
 
     # 输入地址
-    def ger_url(self,url):
+    def get_url(self,url):
         self.driver.get(url)
 
      # 定位元素
@@ -38,5 +38,9 @@ class ActionMethod:
     # 关闭浏览器
     def close_browsser(self):
         self.driver.close()
+
+    #获取title
+    def get_title(self):
+        return self.driver.title
 
 
