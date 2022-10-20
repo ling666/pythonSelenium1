@@ -32,14 +32,14 @@ class FistCase(unittest.TestCase):
 
 
     def testLoginEmailError(self):
-        emailError = self.login.loginEmailError('88@qq.com','1111','11111','111')
+        emailError = self.login.loginEmailError('myl@qq.com','1111','11111','111')
         self.assertFalse(emailError,"邮箱格式正确")
         # if emailError == True:
         #     print("注册成功了，此条case执行失败")
         #通过assert判断是否为error
 
     def testUsernameError(self):
-        usernameError = self.login.loginUsernameError('34@qq.com','111','11111','111')
+        usernameError = self.login.loginUsernameError('myl@qq.com','111','11111','111')
         self.assertFalse(usernameError,"用户名格式正确，这条case执行失败")
         # if usernameError == True:
         #     print("注册成功了，此条case执行失败")
