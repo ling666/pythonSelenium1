@@ -1,0 +1,33 @@
+# coding=utf-8
+import logging
+import os
+import datetime
+
+# logging只是个模块，需要给它配置后logging.debug('test')才能使用
+logger = logging.getLogger()  # 一个对象
+logger.setLevel(logging.DEBUG)  # 设置一个等级，logger文件里面如果要把文件输出就需要一个地方给它，输出的东西在Java里面称为流媒体，需要把输出的流传输到控制台
+# 控制台输出日志
+# console = logging.StreamHandler()  # 创建了一个流对象
+# logger.addHandler(console)  # 有了往控制台输出文件的流
+
+#文件名
+#拿到当前文件,并拼接
+base_dir = os.path.dirname(os.path.abspath(__file__))
+log_dir = os.path.join(base_dir,"logs")
+log_file = datetime.datetime.now().strftime("%y-%m-%d %H%M") + ".log"
+log_name = log_dir + "/" + log_file
+print(log_name)
+
+
+
+# 文件输出日志
+file_handle = logging.FileHandler(log_name,'a',encoding='utf-8')
+formatter = logging.Formatter('%(asctime)s %(filename)s ---->%(funcName)s %(lineno)d %(levelname)s: ---->%(message)s')
+file_handle.setFormatter(formatter)
+logger.addHandler(file_handle)
+
+logging.debug('test1234')
+#print('test')
+file_handle.close()  # consle和logger要删除掉
+logger.removeHandler(file_handle)
+

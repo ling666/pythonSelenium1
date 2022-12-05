@@ -25,7 +25,7 @@ class ReadIni(object):   # class继承于object(封装)
 
 if __name__=='__main__':
     readIni = ReadIni()
-    print(readIni.getValue("userEmail"))
+    print(readIni.getValue("userEmailError"))
 
 
 
