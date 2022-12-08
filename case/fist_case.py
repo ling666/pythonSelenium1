@@ -6,18 +6,24 @@ import time
 
 from business.register_business import RegisterBusiness
 from selenium import webdriver
+from log.user_log import UserLog
 import unittest
 import warnings
 import HTMLTestRunner
 
+log = UserLog()
+logger = log.get_log()
 
 class FistCase(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get('http:\\www.5itest.cn/register')
+        logger.debug('this is chrome')
+        log.close_handle()
         self.login = RegisterBusiness(self.driver)
         # 解决错误 ResourceWarning: Enable tracemalloc to get the object allocation traceback
         warnings.simplefilter('ignore', ResourceWarning)
+
 
     def tearDown(self):
         time.sleep(2)
