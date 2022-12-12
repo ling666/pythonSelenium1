@@ -24,6 +24,7 @@ class UserLog(object):
 
         # 文件输出日志
         self.file_handle = logging.FileHandler(log_name, 'a', encoding='utf-8')  # 追加模式，日志输出到log_name
+        self.file_handle.setLevel(logging.INFO)
         formatter = logging.Formatter(
             '%(asctime)s %(filename)s ---->%(funcName)s %(lineno)d %(levelname)s: ---->%(message)s')  # 定义handler的输出格式
         self.file_handle.setFormatter(formatter)

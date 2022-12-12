@@ -23,36 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06d1d49a-a85b-4d64-96cc-c956f632848a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonSelenium1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonSelenium1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_12_5_15_12__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_12_5_15_12__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/t.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case/fist_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/fist_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/user_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/log/user_log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/first_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/first_case.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/first_case1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testCodeError.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testLoginEmailError.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testLoginSuccess.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testUsernameError.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testUserpasswordError.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_1___88____user1111___11111_0__111_0___userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_1___88_qq_com____1111____11111____111____userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_1___test01____88____user1111___11111_0__111_0___userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_2____qq_com____user1111___11111_0__111_0___userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_2____qq_com____user1111___11111_0___111____userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_2___test02_____qq_com____user1111___11111_0__111_0___userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_3___88_qq_com____1111____11111____111____userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_3___90_qq_com____user1111___11111_0__111_0___userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_3___90_qq_com____user1111___11111_0___111____userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_3___90_qq_com____user1111____11111____111____userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_register_case_3___test03____90_qq_com____user1111___11111_0__111_0___userEmailError____请输入有效的电子邮件地址__.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,8 +65,30 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.fist_case111">
+  <component name="RunManager" selected="Python.fist_case2">
     <configuration name="fist_case111" type="PythonConfigurationType" factoryName="Python">
+      <module name="pythonSelenium1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\software\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/fist_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fist_case2" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonSelenium1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,6 +163,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.fist_case2" />
       <item itemvalue="Python.fist_case111" />
       <item itemvalue="Python.user_log1" />
       <item itemvalue="Python tests.Python tests for fist_case.FistCase" />
@@ -161,8 +171,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.user_log1" />
         <item itemvalue="Python tests.Python tests for fist_case.FistCase" />
+        <item itemvalue="Python.user_log1" />
         <item itemvalue="Python tests.Python tests in fist_case.py" />
       </list>
     </recent_temporary>
@@ -176,6 +186,8 @@
       <updated>1670468060236</updated>
       <workItem from="1670468065566" duration="12935000" />
       <workItem from="1670491651989" duration="1547000" />
+      <workItem from="1670809341649" duration="6287000" />
+      <workItem from="1670816282188" duration="2038000" />
     </task>
     <servers />
   </component>
@@ -198,8 +210,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonSelenium1$fist_case111.coverage" NAME="fist_case111 Coverage Results" MODIFIED="1670492048572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/pythonSelenium1$.coverage" NAME=" Coverage Results" MODIFIED="1670489593409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$fist_case111.coverage" NAME="fist_case111 Coverage Results" MODIFIED="1670813890433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$.coverage" NAME=" Coverage Results" MODIFIED="1670816110024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$fist_case2.coverage" NAME="fist_case2 Coverage Results" MODIFIED="1670817454779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/pythonSelenium1$user_log1.coverage" NAME="user_log1 Coverage Results" MODIFIED="1670491761388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
     <SUITE FILE_PATH="coverage/pythonSelenium1$user_log.coverage" NAME="user_log1 Coverage Results" MODIFIED="1670491513711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
   </component>
