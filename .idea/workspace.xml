@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b966d120-09b2-4677-bf24-4d1c0dacfca5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/fist_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/fist_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/keyword_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/keyword_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/keyword.xls" beforeDir="false" afterPath="$PROJECT_DIR$/config/keyword.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testLoginEmailError.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testLoginEmailError.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/excel_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/excel_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/read_ini.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/case/keyword_case.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.keyword_case1">
@@ -195,6 +189,8 @@
       <workItem from="1666101455106" duration="1031000" />
       <workItem from="1666180120947" duration="6566000" />
       <workItem from="1666266280117" duration="5595000" />
+      <workItem from="1666495570827" duration="1029000" />
+      <workItem from="1669371944348" duration="25000" />
     </task>
     <servers />
   </component>
