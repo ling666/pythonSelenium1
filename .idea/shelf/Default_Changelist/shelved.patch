@@ -1,0 +1,680 @@
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"InspectionProjectProfileManager\">\r\n  <profile version=\"1.0\">\r\n    <option name=\"myName\" value=\"Project Default\" />\r\n    <inspection_tool class=\"CommandLineInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyAbstractClassInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyArgumentListInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyAssignmentToLoopOrWithParameterInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyAsyncCallInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyAttributeOutsideInitInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyBroadExceptionInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyByteLiteralInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyCallByClassInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyCallingNonCallableInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyChainedComparisonsInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyClassHasNoInitInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyComparisonWithNoneInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyDataclassInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyDecoratorInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyDefaultArgumentInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyDeprecationInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyDictCreationInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyDictDuplicateKeysInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyDocstringTypesInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyDunderSlotsInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyExceptClausesOrderInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyExceptionInheritInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyFinalInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyFromFutureImportInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyGlobalUndefinedInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyInconsistentIndentationInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyIncorrectDocstringInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyInitNewSignatureInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyInterpreterInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyListCreationInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyMethodFirstArgAssignmentInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyMethodMayBeStaticInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyMethodOverridingInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyMethodParametersInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyMissingConstructorInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyNamedTupleInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyNestedDecoratorsInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyNonAsciiCharInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyNoneFunctionAssignmentInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyOldStyleClassesInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyOverloadsInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyPackageRequirementsInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\">\r\n      <option name=\"ignoredPackages\">\r\n        <value>\r\n          <list size=\"0\" />\r\n        </value>\r\n      </option>\r\n    </inspection_tool>\r\n    <inspection_tool class=\"PyPep8Inspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyPep8NamingInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyPropertyAccessInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyPropertyDefinitionInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyProtectedMemberInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyProtocolInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyRedeclarationInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyRedundantParenthesesInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyReturnFromInitInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PySetFunctionToLiteralInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyShadowingBuiltinsInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyShadowingNamesInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PySimplifyBooleanCheckInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PySingleQuotedDocstringInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyStatementEffectInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyStringExceptionInspection\" enabled=\"false\" level=\"ERROR\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyStringFormatInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyStubPackagesAdvertiser\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyStubPackagesCompatibilityInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PySuperArgumentsInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyTestParametrizedInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyTrailingSemicolonInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyTupleAssignmentBalanceInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyTupleItemAssignmentInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyTypeCheckerInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyTypeHintsInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyTypedDictInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyUnboundLocalVariableInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyUnnecessaryBackslashInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyUnreachableCodeInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyUnresolvedReferencesInspection\" enabled=\"false\" level=\"WARNING\" enabled_by_default=\"false\" />\r\n    <inspection_tool class=\"PyUnusedLocalInspection\" enabled=\"false\" level=\"WEAK WARNING\" enabled_by_default=\"false\" />\r\n  </profile>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/inspectionProfiles/Project_Default.xml	(revision 77e8233fbd1e7db5b7a97c8ca85d7fa5732de19b)
++++ .idea/inspectionProfiles/Project_Default.xml	(date 1670213771794)
+@@ -2,14 +2,15 @@
+   <profile version="1.0">
+     <option name="myName" value="Project Default" />
+     <inspection_tool class="CommandLineInspection" enabled="false" level="WARNING" enabled_by_default="false" />
++    <inspection_tool class="CythonUsageBeforeDeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyAbstractClassInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyAssignmentToLoopOrWithParameterInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyAsyncCallInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyAttributeOutsideInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
++    <inspection_tool class="PyBDDParametersInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyByteLiteralInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+-    <inspection_tool class="PyCallByClassInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyCallingNonCallableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyChainedComparisonsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyClassHasNoInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+@@ -58,6 +59,7 @@
+     <inspection_tool class="PyProtocolInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyRedeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyRedundantParenthesesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
++    <inspection_tool class="PyRelativeImportInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyReturnFromInitInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PySetFunctionToLiteralInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyShadowingBuiltinsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+@@ -65,7 +67,6 @@
+     <inspection_tool class="PySimplifyBooleanCheckInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+     <inspection_tool class="PySingleQuotedDocstringInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyStatementEffectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+-    <inspection_tool class="PyStringExceptionInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+     <inspection_tool class="PyStringFormatInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyStubPackagesAdvertiser" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="PyStubPackagesCompatibilityInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+Index: keywordselenium/action_method.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- keywordselenium/action_method.py	(date 1670213772140)
++++ keywordselenium/action_method.py	(date 1670213772140)
+@@ -0,0 +1,46 @@
++# coding=utf-8
++from selenium import webdriver
++from base.find_element import FindElement
++import time
++
++
++class ActionMethod:
++    # 打开浏览器
++    def open_browser(self, browser):
++        if browser == 'chrome':
++            self.driver = webdriver.Chrome()
++        elif browser == 'firefox':
++            self.driver = webdriver.Firefox()
++        else:
++            self.driver = webdriver.Edge()
++
++    # 输入地址
++    def get_url(self, url):
++        self.driver.get(url)
++
++    # 定位元素
++    def get_element(self, key):
++        find_element = FindElement(self.driver)
++        element = find_element.getElement(key)
++        return element
++
++    # 输入元素,在什么元素上输入值
++    def element_send_keys(self, key, value):
++        element = self.get_element(key)
++        element.send_keys(value)
++
++    # 点击元素
++    def click_element(self, key):
++        self.get_element(key).click()
++
++    # 等待
++    def sleep_time(self):
++        time.sleep(3)
++
++    # 关闭浏览器
++    def close_browsser(self):
++        self.driver.close()
++
++    # 获取title
++    def get_title(self):
++        return self.driver.title
+Index: .idea/pythonSelenium1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/pythonSelenium1.iml	(revision 77e8233fbd1e7db5b7a97c8ca85d7fa5732de19b)
++++ .idea/pythonSelenium1.iml	(date 1670220199321)
+@@ -1,8 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="PYTHON_MODULE" version="4">
+   <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/venv" />
++    </content>
++    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: log/user_log.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- log/user_log.py	(date 1670221670237)
++++ log/user_log.py	(date 1670221670237)
+@@ -0,0 +1,12 @@
++# coding=utf-8
++import logging
++
++# logging只是个模块，需要给它配置后logging.debug('test')才能使用
++logger = logging.getLogger()  # 一个对象
++logger.setLevel(logging.DEBUG)  # 设置一个等级，logger文件里面如果要把文件输出就需要一个地方给它，输出的东西在Java里面称为流媒体，需要把输出的流传输到控制台
++console = logging.StreamHandler()  # 创建了一个流对象
++logger.addHandler(console)  # 有了往控制台输出文件的流
++logging.debug('test')
++print("test")
++console.close()  # consle和logger要删除掉
++logger.removeHandler(console)
+Index: util/read_ini.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># coding =utf-8\r\nimport configparser\r\n\r\nclass ReadIni(object):   # class继承于object(封装)\r\n    def __init__(self,fileName=None,node=None):  # fileName有可能传有可能不传，它有一个默认值\r\n        if fileName == None:\r\n            fileName = \"E:/pythonSelenium1/config/localElement.ini\"  # fileName为空时给它复制，不为空时直接运用本身的\r\n        if node == None:\r\n            self.node = \"RegisterElement\"  # node为空时给它赋值，不为空时直接运用\r\n        else:\r\n            self.node = node\r\n        self.cf = self.loadIni(fileName)\r\n\r\n\r\n# 加载\r\n    def loadIni(self,fileName):   # 用于加载文件\r\n        cf = configparser.ConfigParser()\r\n        cf.read(fileName)\r\n        return cf\r\n\r\n# 获取value值\r\n    def getValue(self,key):   # 该函数用来获取节点和前面的名字key\r\n        date = self.cf.get(self.node,key)\r\n        return date\r\n\r\nif __name__=='__main__':\r\n    readIni = ReadIni()\r\n    print(readIni.getValue(\"userEmail\"))\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- util/read_ini.py	(revision 77e8233fbd1e7db5b7a97c8ca85d7fa5732de19b)
++++ util/read_ini.py	(date 1670213772292)
+@@ -25,7 +25,7 @@
+ 
+ if __name__=='__main__':
+     readIni = ReadIni()
+-    print(readIni.getValue("userEmail"))
++    print(readIni.getValue("userEmailError"))
+ 
+ 
+ 
+Index: util/excel_util.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#coding = utf-8\r\nimport xlrd\r\nclass ExcelUtil:\r\n    def __init__(self,excel_path=None,index=None):\r\n        if excel_path == None:\r\n            excel_path = \"E:\\pythonSelenium1\\config\\casedata.xls\"\r\n        if index == None:\r\n            index = 0\r\n        self.data = xlrd.open_workbook(excel_path)\r\n        self.table = self.data.sheets()[index]   #目的是将case读成[[\"A\",\"B\"],[],[]]\r\n        self.rows = self.table.nrows  #行数\r\n    def get_data(self):\r\n        result = []\r\n        for i in range(self.rows):\r\n            col = self.table.row_values(i) #拿行的数据\r\n            result.append(col)\r\n        return result\r\nif __name__ == '__main__':\r\n    ex = ExcelUtil()\r\n    print(ex.get_data())\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- util/excel_util.py	(revision 77e8233fbd1e7db5b7a97c8ca85d7fa5732de19b)
++++ util/excel_util.py	(date 1670213772270)
+@@ -1,20 +1,47 @@
+ #coding = utf-8
+ import xlrd
++from xlutils.copy import copy
+ class ExcelUtil:
+     def __init__(self,excel_path=None,index=None):
+         if excel_path == None:
+-            excel_path = "E:\pythonSelenium1\config\casedata.xls"
++            self.excel_path = "E:\pythonSelenium1\config\casedata.xls"
++        else:
++            self.excel_path =excel_path
+         if index == None:
+             index = 0
+-        self.data = xlrd.open_workbook(excel_path)
++        self.data = xlrd.open_workbook(self.excel_path)
+         self.table = self.data.sheets()[index]   #目的是将case读成[["A","B"],[],[]]
+-        self.rows = self.table.nrows  #行数
++
++    #获取Excel数据，按照每行一个list，添加到一个大的list里面
+     def get_data(self):
+         result = []
+-        for i in range(self.rows):
+-            col = self.table.row_values(i) #拿行的数据
+-            result.append(col)
+-        return result
++        rows = self.get_line()
++        if row != None:
++            for i in range(rows):
++                col = self.table.row_values(i) #拿行的数据
++                result.append(col)  # 将col追加到列表末尾
++            return result
++        return None
++    #获取Excel行数
++    def get_lines(self):
++        rows = self.table.nrows  # 获取行数
++        if rows >= 1:
++            return rows
++        return None
++    #获取单元格数据
++    def get_col_values(self,row,col):
++        if self.get_lines()>row:
++            date = self.table.cell(row,col).value  #第4行第3列的数据
++            return date
++        return None
++
++    #写入数据
++    def write_value(self,row,value):
++        read_value = xlrd.open_workbook(self.excel_path)
++        write_data = copy(read_value) #复制工作表
++        write_data.get_sheet(0).write(row,9,value)  #get_sheet(0)获得工作表，然后write写入内容
++        write_data.save(self.excel_path)
++
+ if __name__ == '__main__':
+-    ex = ExcelUtil()
+-    print(ex.get_data())
++    ex = ExcelUtil('E:\pythonSelenium1\config\keyword.xls')
++    print(ex.get_col_values(10,8))
+Index: case/keyword_case.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- case/keyword_case.py	(date 1670213772038)
++++ case/keyword_case.py	(date 1670213772038)
+@@ -0,0 +1,66 @@
++#coding=utf-8
++import sys
++sys.path.append('E:\\pythonSelenium1')
++from util.excel_util import ExcelUtil
++from keywordselenium.action_method import ActionMethod
++class KeywordCase:
++    def run_main(self):
++        self.action_method = ActionMethod()
++        handle_excel = ExcelUtil('E:\pythonSelenium1\config\keyword.xls')
++        case_lines = handle_excel.get_lines()
++        if case_lines:
++            for i in range(1,case_lines):
++                is_run = handle_excel.get_col_values(i,3)
++                #print(is_run)
++                if is_run == 'yes':
++                    method = handle_excel.get_col_values(i,4)
++                    send_value = handle_excel.get_col_values(i,5)
++                    handle_value = handle_excel.get_col_values(i, 6)
++                    except_result_method = handle_excel.get_col_values(i,7)
++                    except_result = handle_excel.get_col_values(i,8)
++                    #except_result_method和except_result有可能为空的，是''而不是None
++                    self.run_method(method,send_value,handle_value)
++                    if except_result != '':
++                        except_value = self.get_except_result_value(except_result)
++                        if except_value[0] == 'text':
++                            result = self.run_method(except_result_method)
++                            if except_value[1] in result:
++                                handle_excel.write_value(i,'pass')
++                            else:
++                                handle_excel.write_value(i,'fail')
++                        elif except_value[0] == 'element':
++                            result = self.run_method(except_result_method,except_value[1])
++                            print(result)
++                            if result:
++                                handle_excel.write_value(i,'pass')
++                            else:
++                                handle_excel.write_value(i,'fail')
++                        else:
++                            print('没有else')
++                    else:
++                        print('预期结果为空')
++
++
++    #获取预期结果值
++    def get_except_result_value(self,data):
++        return data.split('=')  #split()可以进行字符串分割
++
++    #如果send_value不为空的时候就执行
++    def run_method(self,method,send_value='',handle_value=''):  #send_value有值就有值，如果没有值那我就认为你是空的
++        #print(send_value,"----->",handle_value)
++        method_value = getattr(self.action_method,method)  #getattr()可以通过字符串拿到对象里面的方法，这里只是拿到了这个方法这个对象
++        if send_value == '' and handle_value != '':
++            result = method_value(handle_value)  #执行method,即打开浏览器
++        elif send_value =='' and handle_value =='':
++            result = method_value()
++        elif send_value !='' and handle_value =='':
++            result = method_value(send_value)
++        else:
++            result = method_value(handle_value,send_value)
++        return result
++
++if __name__=='__main__':
++    test = KeywordCase()
++    test.run_main()
++
++
+Index: base/find_element.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># coding =utf-8\r\nfrom util.read_ini import ReadIni\r\nfrom selenium.webdriver.common.by import By\r\n\r\n\r\nclass FindElement(object):\r\n    def __init__(self,driver):\r\n        self.driver =driver\r\n\r\n    def getElement(self,key):\r\n        readIni = ReadIni()\r\n        date = readIni.getValue(key)\r\n        by = date.split('>')[0]  # 取>前的内容\r\n        value = date.split('>')[1]  # 取>后的内容\r\n        try:\r\n            if by == 'id':\r\n                return self.driver.find_element(By.ID,value)\r\n                #return self.driver.find_element_by_id(value)\r\n            elif by == 'name':\r\n                return self.driver.find_element(By.NAME, value)\r\n                #return self.driver.find_element_by_name(value)\r\n            elif by == 'className':\r\n                return self.driver.find_element(By.CLASS_NAME, value)\r\n                #return self.driver.find_element_by_class_name(value)\r\n            else:\r\n                return  self.driver.find_element_by_class_xpath(value)\r\n        except:\r\n            self.driver.save_screenshot('D:/pythonProject/image/%s.png' %value)\r\n            return None\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- base/find_element.py	(revision 77e8233fbd1e7db5b7a97c8ca85d7fa5732de19b)
++++ base/find_element.py	(date 1670213771915)
+@@ -4,27 +4,26 @@
+ 
+ 
+ class FindElement(object):
+-    def __init__(self,driver):
+-        self.driver =driver
++    def __init__(self, driver):
++        self.driver = driver
+ 
+-    def getElement(self,key):
++    def getElement(self, key):
+         readIni = ReadIni()
+         date = readIni.getValue(key)
+         by = date.split('>')[0]  # 取>前的内容
+         value = date.split('>')[1]  # 取>后的内容
+         try:
+             if by == 'id':
+-                return self.driver.find_element(By.ID,value)
+-                #return self.driver.find_element_by_id(value)
++                return self.driver.find_element(By.ID, value)
++                # return self.driver.find_element_by_id(value)
+             elif by == 'name':
+                 return self.driver.find_element(By.NAME, value)
+-                #return self.driver.find_element_by_name(value)
++                # return self.driver.find_element_by_name(value)
+             elif by == 'className':
+                 return self.driver.find_element(By.CLASS_NAME, value)
+-                #return self.driver.find_element_by_class_name(value)
++                # return self.driver.find_element_by_class_name(value)
+             else:
+-                return  self.driver.find_element_by_class_xpath(value)
++                return self.driver.find_element_by_class_xpath(value)
+         except:
+-            self.driver.save_screenshot('D:/pythonProject/image/%s.png' %value)
++            self.driver.save_screenshot('D:/pythonProject/image/%s.png' % value)
+             return None
+-
+Index: business/register_business.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#coding=utf-8\r\n#business层去操作handle层\r\nfrom handle.register_handle import RegisterHandle\r\nclass RegisterBusiness(object):\r\n    def __init__(self,driver):\r\n        self.registerH = RegisterHandle(driver)\r\n    def userBase(self,email,name,password,code):\r\n        self.registerH.sendUserEmail(email)\r\n        self.registerH.sendUserName(name)\r\n        self.registerH.sendUserPassword(password)\r\n        self.registerH.sendUserCode(code)\r\n        self.registerH.clickRegisterButton()\r\n        self.registerH.getRegisterButtonText()\r\n\r\n    def registerSuccess(self,email,name,password,code):\r\n        self.userBase(email, name, password, code)\r\n        if self.registerH.getRegisterButtonText() == None:\r\n            print(\"注册成功\")\r\n            return True\r\n        else:\r\n            print(\"注册失败\")\r\n            return False\r\n\r\n    #邮箱错误\r\n    def loginEmailError(self,email,name,password,code):\r\n        self.userBase(email,name,password,code)\r\n        #email是从case中传下来的\r\n        if self.registerH.getUsertext('userEmailError',\"请输入有效的电子邮件地址\") == None:\r\n            print(\"邮箱格式正确\")\r\n            return True\r\n        else:\r\n            return False\r\n\r\n    def register_function(self,email,username,password,code,assertCode,assertText):\r\n        self.userBase(email, username, password, code)\r\n        # email是从case中传下来的\r\n        if self.registerH.getUsertext(assertCode, assertText) == None:\r\n            #print(\"邮箱格式正确\")\r\n            return True\r\n        else:\r\n            return False\r\n\r\n    #用户名错误\r\n    def loginUsernameError(self, email, name, password, code):\r\n        self.userBase(email, name, password, code)\r\n        # email是从case中传下来的\r\n        if self.registerH.getUsertext('userNameError', \"字符长度必须大于等于4，一个中文字算2个字符\") == None:\r\n            print(\"用户名格式正确\")\r\n            return True\r\n        else:\r\n            return False\r\n    #密码错误\r\n    def loginUserpasswordError(self, email, name, password, code):\r\n        self.userBase(email, name, password, code)\r\n        # email是从case中传下来的\r\n        if self.registerH.getUsertext('passwordError', \"最少需要输入 5 个字符\") == None:\r\n            print(\"密码格式正确\")\r\n            return True\r\n        else:\r\n            return False\r\n\r\n    #验证码错误\r\n    def loginCodeError(self, email, name, password, code):\r\n        self.userBase(email, name, password, code)\r\n        # email是从case中传下来的\r\n        if self.registerH.getUsertext('codeTextError', \"验证码错误\") == None:\r\n            print(\"验证码正确\")\r\n            return True\r\n        else:\r\n            return False\r\n\r\n        #     return True\r\n        # self.registerH.sendUserPassword(password)\r\n        # self.registerH.sendCode(code)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- business/register_business.py	(revision 77e8233fbd1e7db5b7a97c8ca85d7fa5732de19b)
++++ business/register_business.py	(date 1670213772011)
+@@ -1,10 +1,13 @@
+-#coding=utf-8
+-#business层去操作handle层
++# coding=utf-8
++# business层去操作handle层
+ from handle.register_handle import RegisterHandle
++
++
+ class RegisterBusiness(object):
+-    def __init__(self,driver):
++    def __init__(self, driver):
+         self.registerH = RegisterHandle(driver)
+-    def userBase(self,email,name,password,code):
++
++    def userBase(self, email, name, password, code):
+         self.registerH.sendUserEmail(email)
+         self.registerH.sendUserName(name)
+         self.registerH.sendUserPassword(password)
+@@ -12,58 +15,59 @@
+         self.registerH.clickRegisterButton()
+         self.registerH.getRegisterButtonText()
+ 
+-    def registerSuccess(self,email,name,password,code):
++    def registerSuccess(self, email, name, password, code):
+         self.userBase(email, name, password, code)
+-        if self.registerH.getRegisterButtonText() == None:
++        if self.registerH.getRegisterButtonText() is None:
+             print("注册成功")
+             return True
+         else:
+             print("注册失败")
+             return False
+ 
+-    #邮箱错误
+-    def loginEmailError(self,email,name,password,code):
+-        self.userBase(email,name,password,code)
+-        #email是从case中传下来的
+-        if self.registerH.getUsertext('userEmailError',"请输入有效的电子邮件地址") == None:
++    # 邮箱错误
++    def loginEmailError(self, email, name, password, code):
++        self.userBase(email, name, password, code)
++        # email是从case中传下来的
++        if self.registerH.getUsertext('userEmailError', "请输入有效的电子邮件地址") is None:
+             print("邮箱格式正确")
+             return True
+         else:
+             return False
+ 
+-    def register_function(self,email,username,password,code,assertCode,assertText):
++    def register_function(self, email, username, password, code, assertCode, assertText):
+         self.userBase(email, username, password, code)
+         # email是从case中传下来的
+-        if self.registerH.getUsertext(assertCode, assertText) == None:
+-            #print("邮箱格式正确")
++        if self.registerH.getUsertext(assertCode, assertText) is None:
++            # print("邮箱格式正确")
+             return True
+         else:
+             return False
+ 
+-    #用户名错误
++    # 用户名错误
+     def loginUsernameError(self, email, name, password, code):
+         self.userBase(email, name, password, code)
+         # email是从case中传下来的
+-        if self.registerH.getUsertext('userNameError', "字符长度必须大于等于4，一个中文字算2个字符") == None:
++        if self.registerH.getUsertext('userNameError', "字符长度必须大于等于4，一个中文字算2个字符") is None:
+             print("用户名格式正确")
+             return True
+         else:
+             return False
+-    #密码错误
++
++    # 密码错误
+     def loginUserpasswordError(self, email, name, password, code):
+         self.userBase(email, name, password, code)
+         # email是从case中传下来的
+-        if self.registerH.getUsertext('passwordError', "最少需要输入 5 个字符") == None:
++        if self.registerH.getUsertext('passwordError', "最少需要输入 5 个字符") is None:
+             print("密码格式正确")
+             return True
+         else:
+             return False
+ 
+-    #验证码错误
++    # 验证码错误
+     def loginCodeError(self, email, name, password, code):
+         self.userBase(email, name, password, code)
+         # email是从case中传下来的
+-        if self.registerH.getUsertext('codeTextError', "验证码错误") == None:
++        if self.registerH.getUsertext('codeTextError', "验证码错误") is None:
+             print("验证码正确")
+             return True
+         else:
+Index: case/fist_case.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># coding = utf-8\r\n# 不同的测试用例\r\nimport os\r\nimport sys\r\nimport time\r\n\r\nfrom business.register_business import RegisterBusiness\r\nfrom selenium import webdriver\r\nimport unittest\r\nimport warnings\r\nimport HTMLTestRunner\r\n\r\n\r\nclass FistCase(unittest.TestCase):\r\n    def setUp(self):\r\n        self.driver = webdriver.Chrome()\r\n        self.driver.get('http:\\\\www.5itest.cn/register')\r\n        self.login = RegisterBusiness(self.driver)\r\n        # 解决错误 ResourceWarning: Enable tracemalloc to get the object allocation traceback\r\n        warnings.simplefilter('ignore', ResourceWarning)\r\n\r\n    def tearDown(self):\r\n        time.sleep(2)\r\n        #sys.exc_info()[0]: #python2里面捕获异常\r\n        for method_name,error in self._outcome.errors:\r\n            if error:\r\n                case_name = self._testMethodName\r\n                file_path = os.path.join(os.getcwd(), \"..\" + \"/report/\" +case_name+\".png\")\r\n                self.driver.save_screenshot(file_path)\r\n        #print(\"这是case的后置条件\")\r\n        self.driver.close()\r\n\r\n\r\n    def testLoginEmailError(self):\r\n        emailError = self.login.loginEmailError('88@qq.com','1111','11111','111')\r\n        self.assertFalse(emailError,\"邮箱格式正确\")\r\n        # if emailError == True:\r\n        #     print(\"注册成功了，此条case执行失败\")\r\n        #通过assert判断是否为error\r\n\r\n    def testUsernameError(self):\r\n        usernameError = self.login.loginUsernameError('34@qq.com','111','11111','111')\r\n        self.assertFalse(usernameError,\"用户名格式正确，这条case执行失败\")\r\n        # if usernameError == True:\r\n        #     print(\"注册成功了，此条case执行失败\")\r\n\r\n    def testUserpasswordError(self):\r\n        userpasswordError = self.login.loginUserpasswordError('34@qq.com','1111','111','111')\r\n        self.assertFalse(userpasswordError,\"密码格式正确，这条case执行失败\")\r\n        # if userpasswordError == True:\r\n        #     print(\"注册成功了，此条case执行失败\")\r\n\r\n    def testCodeError(self):\r\n        codeError = self.login.loginCodeError('34@qq.com','1111','11111','111')\r\n        self.assertFalse(codeError,\"验证码正确，这条case执行失败\")\r\n        # if codeError == True:\r\n        #     print(\"注册成功了，此条case执行失败\")\r\n\r\n    def testLoginSuccess(self):\r\n        success = self.login.registerSuccess('34@qq.com','1111','11111','111')\r\n        self.assertFalse(success,\"注册成功了\")\r\n        # if self.login.registerSucces()  == True:\r\n        #     print(\"注册成功\")\r\n\r\n'''\r\ndef main():\r\n    first = FistCase()\r\n    first.testLoginEmailError()\r\n    first.testUsernameError()\r\n    first.testUserpasswordError()\r\n    first.testCodeError()\r\n    first.testLoginSuccess()\r\n'''\r\nif __name__ == '__main__':\r\n\r\n    file_path = os.path.join(os.getcwd(),\"..\" + \"/report/\" + \"first_case.html\")\r\n    f = open(file_path,'wb')\r\n    suite = unittest.TestSuite()\r\n    suite.addTest(FistCase('testLoginEmailError'))\r\n    suite.addTest(FistCase('testUsernameError'))\r\n    suite.addTest(FistCase('testUserpasswordError'))\r\n    suite.addTest(FistCase('testCodeError'))\r\n    suite.addTest(FistCase('testLoginSuccess'))\r\n    runner = HTMLTestRunner.HTMLTestRunner(stream=f,title=\"this is first report\",description=u\"这是我们第一次测试报告\",verbosity=2)\r\n    runner.run(suite)\r\n    #unittest.main()
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- case/fist_case.py	(revision 77e8233fbd1e7db5b7a97c8ca85d7fa5732de19b)
++++ case/fist_case.py	(date 1670213772028)
+@@ -32,14 +32,14 @@
+ 
+ 
+     def testLoginEmailError(self):
+-        emailError = self.login.loginEmailError('88@qq.com','1111','11111','111')
++        emailError = self.login.loginEmailError('myl@qq.com','1111','11111','111')
+         self.assertFalse(emailError,"邮箱格式正确")
+         # if emailError == True:
+         #     print("注册成功了，此条case执行失败")
+         #通过assert判断是否为error
+ 
+     def testUsernameError(self):
+-        usernameError = self.login.loginUsernameError('34@qq.com','111','11111','111')
++        usernameError = self.login.loginUsernameError('myl@qq.com','111','11111','111')
+         self.assertFalse(usernameError,"用户名格式正确，这条case执行失败")
+         # if usernameError == True:
+         #     print("注册成功了，此条case执行失败")
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"4c9df751-e51e-40a7-840c-1d881efe95d4\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2FzLW0dyVY21fXNqCX9j1d3qsCS\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../SeleniumPythonBDD\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.first_ddt_case1\">\r\n    <configuration name=\"excel_util\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonSelenium1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/util\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/util/excel_util.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"first_ddt_case1\" type=\"PythonConfigurationType\" factoryName=\"Python\">\r\n      <module name=\"pythonSelenium1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"D:\\software\\Python\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/case\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/case/first_ddt_case.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"fist_case1\" type=\"PythonConfigurationType\" factoryName=\"Python\">\r\n      <module name=\"pythonSelenium1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"D:\\software\\Python\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/case\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/case/fist_case.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Unittests in first_ddt_case.py\" type=\"tests\" factoryName=\"Unittests\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonSelenium1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/case\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/case/first_ddt_case.py&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.excel_util\" />\r\n      <item itemvalue=\"Python.first_ddt_case1\" />\r\n      <item itemvalue=\"Python.fist_case1\" />\r\n      <item itemvalue=\"Python tests.Unittests in first_ddt_case.py\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python tests.Unittests in first_ddt_case.py\" />\r\n        <item itemvalue=\"Python.excel_util\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"4c9df751-e51e-40a7-840c-1d881efe95d4\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1665489995431</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1665489995431</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"414\" y=\"174\" width=\"1092\" height=\"742\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1665632718573\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"414\" y=\"174\" width=\"1092\" height=\"742\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040\" timestamp=\"1665632718573\" />\r\n    <state x=\"740\" y=\"286\" key=\"FileChooserDialogImpl\" timestamp=\"1666577963551\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"740\" y=\"286\" key=\"FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040\" timestamp=\"1666577963551\" />\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1665646823559\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040\" timestamp=\"1665646823559\" />\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1665627647407\" />\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.center\" timestamp=\"1665646823559\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040\" timestamp=\"1665646823559\" />\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1665627647407\" />\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.left\" timestamp=\"1665646823559\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040\" timestamp=\"1665646823559\" />\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1665627647407\" />\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.right\" timestamp=\"1665646823559\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040\" timestamp=\"1665646823559\" />\r\n    <state width=\"1898\" height=\"277\" key=\"GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1665627647407\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 77e8233fbd1e7db5b7a97c8ca85d7fa5732de19b)
++++ .idea/workspace.xml	(date 1670224018518)
+@@ -19,132 +19,48 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="4c9df751-e51e-40a7-840c-1d881efe95d4" name="Default Changelist" comment="">
++    <list default="true" id="9de54834-22be-48bc-a29c-3d953c3f9aa6" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/case/keyword_case.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/config/keyword.xls" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/keywordselenium/action_method.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/log/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/log/user_log.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/pythonSelenium1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonSelenium1.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/base/find_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/find_element.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/business/register_business.py" beforeDir="false" afterPath="$PROJECT_DIR$/business/register_business.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/case/fist_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/fist_case.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/report/testLoginEmailError.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testLoginEmailError.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/util/excel_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/excel_util.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/util/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/read_ini.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Python Script" />
+-      </list>
+-    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectId" id="2FzLW0dyVY21fXNqCX9j1d3qsCS" />
++  <component name="ProjectId" id="2ITyzwLQw6ITzgSQWiG43Rfxoi9" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumPythonBDD" />
+-  </component>
+-  <component name="RunManager" selected="Python.first_ddt_case1">
+-    <configuration name="excel_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="pythonSelenium1" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/excel_util.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="first_ddt_case1" type="PythonConfigurationType" factoryName="Python">
+-      <module name="pythonSelenium1" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="D:\software\Python\Python38\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+-      <option name="IS_MODULE_SDK" value="false" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/first_ddt_case.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="fist_case1" type="PythonConfigurationType" factoryName="Python">
+-      <module name="pythonSelenium1" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="D:\software\Python\Python38\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+-      <option name="IS_MODULE_SDK" value="false" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/fist_case.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="Unittests in first_ddt_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+-      <module name="pythonSelenium1" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="_new_additionalArguments" value="&quot;&quot;" />
+-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/first_ddt_case.py&quot;" />
+-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+-      <method v="2" />
+-    </configuration>
+-    <list>
+-      <item itemvalue="Python.excel_util" />
+-      <item itemvalue="Python.first_ddt_case1" />
+-      <item itemvalue="Python.fist_case1" />
+-      <item itemvalue="Python tests.Unittests in first_ddt_case.py" />
+-    </list>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="Python tests.Unittests in first_ddt_case.py" />
+-        <item itemvalue="Python.excel_util" />
+-      </list>
+-    </recent_temporary>
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="4c9df751-e51e-40a7-840c-1d881efe95d4" name="Default Changelist" comment="" />
+-      <created>1665489995431</created>
++      <changelist id="9de54834-22be-48bc-a29c-3d953c3f9aa6" name="Default Changelist" comment="" />
++      <created>1670220133396</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1665489995431</updated>
++      <updated>1670220133396</updated>
+     </task>
+     <servers />
+   </component>
+@@ -158,36 +74,19 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="414" y="174" width="1092" height="742" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665632718573">
+-      <screen x="0" y="0" width="1920" height="1040" />
+-    </state>
+-    <state x="414" y="174" width="1092" height="742" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1665632718573" />
+-    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1666577963551">
+-      <screen x="0" y="0" width="1920" height="1040" />
+-    </state>
+-    <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1666577963551" />
+-    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1665646823559">
++    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1670220171895">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1665646823559" />
+-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1665627647407" />
+-    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1665646823559">
++    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670220171895" />
++    <state x="809" y="416" key="Github.ShareDialog" timestamp="1670223886696">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1665646823559" />
+-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1665627647407" />
+-    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1665646823559">
++    <state x="809" y="416" key="Github.ShareDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670223886696" />
++    <state x="461" y="151" key="SettingsEditor" timestamp="1670224018180">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1665646823559" />
+-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1665627647407" />
+-    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1665646823559">
+-      <screen x="0" y="0" width="1920" height="1040" />
+-    </state>
+-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1665646823559" />
+-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1665627647407" />
++    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670224018180" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git log/__init__.py log/__init__.py
+new file mode 100644

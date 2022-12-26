@@ -1,0 +1,14 @@
+<changelist name="Default_Changelist" date="1670224275715" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" />
+  <option name="DESCRIPTION" value="Default Changelist" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="config/keyword.xls" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default_Changelist/keyword.xls" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="report/testLoginEmailError.png" />
+    <option name="AFTER_PATH" value="report/testLoginEmailError.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Default_Changelist/testLoginEmailError.png" />
+  </binary>
+</changelist>

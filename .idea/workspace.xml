@@ -1,14 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b966d120-09b2-4677-bf24-4d1c0dacfca5" name="Changes" comment="">
+    <list default="true" id="06d1d49a-a85b-4d64-96cc-c956f632848a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/report/first_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/first_case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testLoginEmailError.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testLoginEmailError.png" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/case/t.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/fist_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/fist_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/user_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/log/user_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/first_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/first_case.html" afterDir="false" />
+>>>>>>> 0247b64f0fbb0b5c0796e19bc53f4715e9648a9b
+>>>>>>> d48c1c4d15b5b95d00ae029dc33c152a447b1848
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2InTnqFR2Otfch58z7GH7WHVh9i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case/fist_case.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.fist_case1">
+    <configuration name="fist_case1" type="PythonConfigurationType" factoryName="Python">
+=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -19,19 +70,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2G9p0UuH4sqJVnsaDS7nuevmUQI" />
+  <component name="ProjectId" id="2Ic5WHqGbgNs0nQYaW3Qx5qTOsC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -41,41 +88,44 @@
   </component>
   <component name="RunManager" selected="Python.keyword_case1">
     <configuration name="excel_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/pythonSelenium1/case/fist_case.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.fist_case2">
+    <configuration name="fist_case111" type="PythonConfigurationType" factoryName="Python">
+>>>>>>> 0247b64f0fbb0b5c0796e19bc53f4715e9648a9b
+>>>>>>> d48c1c4d15b5b95d00ae029dc33c152a447b1848
       <module name="pythonSelenium1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/excel_util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="keyword_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonSelenium1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="SDK_HOME" value="D:\software\Python\Python38\python.exe" />
+=======
+      <option name="SDK_HOME" value="D:\software\Python\python.exe" />
+>>>>>>> 0247b64f0fbb0b5c0796e19bc53f4715e9648a9b
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+=======
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/keyword_case.py" />
+>>>>>>> 0247b64f0fbb0b5c0796e19bc53f4715e9648a9b
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/fist_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,20 +134,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="keyword_case1" type="PythonConfigurationType" factoryName="Python">
+<<<<<<< HEAD
+    <configuration name="user_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="fist_case2" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonSelenium1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Program Files\Python\python.exe" />
+      <option name="SDK_HOME" value="D:\software\Python\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/keyword_case.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/fist_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +159,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_ini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="user_log1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 0247b64f0fbb0b5c0796e19bc53f4715e9648a9b
       <module name="pythonSelenium1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +168,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/log" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/read_ini.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/log/user_log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +182,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for fist_case.FistCase.testLoginEmailError" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+<<<<<<< HEAD
+    <list>
+      <item itemvalue="Python.fist_case1" />
+      <item itemvalue="Python.user_log" />
+=======
+    <configuration name="Python tests for fist_case.FistCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonSelenium1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +198,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;fist_case.FistCase.testLoginEmailError&quot;" />
+      <option name="_new_target" value="&quot;fist_case.FistCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for fist_case.FistCase.testUsernameError" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in fist_case.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonSelenium1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,35 +213,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;fist_case.FistCase.testUsernameError&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/fist_case.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.keyword_case1" />
-      <item itemvalue="Python.keyword_case" />
-      <item itemvalue="Python.read_ini" />
-      <item itemvalue="Python.excel_util" />
-      <item itemvalue="Python tests.Python tests for fist_case.FistCase.testUsernameError" />
-      <item itemvalue="Python tests.Python tests for fist_case.FistCase.testLoginEmailError" />
+      <item itemvalue="Python.fist_case2" />
+      <item itemvalue="Python.fist_case111" />
+      <item itemvalue="Python.user_log1" />
+      <item itemvalue="Python tests.Python tests for fist_case.FistCase" />
+      <item itemvalue="Python tests.Python tests in fist_case.py" />
+>>>>>>> 0247b64f0fbb0b5c0796e19bc53f4715e9648a9b
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for fist_case.FistCase.testLoginEmailError" />
-        <item itemvalue="Python tests.Python tests for fist_case.FistCase.testUsernameError" />
-        <item itemvalue="Python.read_ini" />
-        <item itemvalue="Python.excel_util" />
-        <item itemvalue="Python.keyword_case" />
+        <item itemvalue="Python tests.Python tests for fist_case.FistCase" />
+        <item itemvalue="Python.user_log1" />
+        <item itemvalue="Python tests.Python tests in fist_case.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b966d120-09b2-4677-bf24-4d1c0dacfca5" name="Changes" comment="" />
-      <created>1665810430546</created>
+<<<<<<< HEAD
+      <changelist id="06d1d49a-a85b-4d64-96cc-c956f632848a" name="Default Changelist" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+      <created>1670816531004</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+      <updated>1670816531004</updated>
+=======
+      <created>1670468060236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1665810430546</updated>
       <workItem from="1665810431872" duration="12047000" />
       <workItem from="1666093269492" duration="5401000" />
@@ -191,20 +255,93 @@
       <workItem from="1666266280117" duration="5595000" />
       <workItem from="1666495570827" duration="1029000" />
       <workItem from="1669371944348" duration="25000" />
+=======
+      <updated>1670468060236</updated>
+      <workItem from="1670468065566" duration="12935000" />
+      <workItem from="1670491651989" duration="1547000" />
+      <workItem from="1670809341649" duration="6287000" />
+      <workItem from="1670816282188" duration="2038000" />
+>>>>>>> 0247b64f0fbb0b5c0796e19bc53f4715e9648a9b
+>>>>>>> d48c1c4d15b5b95d00ae029dc33c152a447b1848
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+  </component>
+<<<<<<< HEAD
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1670817447781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670816601090" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1670817447781" />
+    <state x="676" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1670232305264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670232305264" />
+    <state x="817" y="278" key="EnvironmentVariablesDialog" timestamp="1670226303800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="278" key="EnvironmentVariablesDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670226303800" />
+    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1670816592531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670816592531" />
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1670818226794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670234718286" />
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1670818226794" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1670818226793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670234718285" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1670818226793" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1670818226793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670234718285" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1670818226793" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1670818226794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670234718286" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1670818226794" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1670226324640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670226324640" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1670225593261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670225593261" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1670231447091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1670231447091" />
+=======
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonSelenium1$keyword_case1.coverage" NAME="keyword_case1 Coverage Results" MODIFIED="1666271865305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/pythonSelenium1$register_handle.coverage" NAME="register_handle Coverage Results" MODIFIED="1666100554741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handle" />
-    <SUITE FILE_PATH="coverage/pythonSelenium1$action_method.coverage" NAME="action_method Coverage Results" MODIFIED="1666100564454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keywordselenium" />
-    <SUITE FILE_PATH="coverage/pythonSelenium1$register_code.coverage" NAME="register_code Coverage Results" MODIFIED="1666100596711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seleniumpython" />
-    <SUITE FILE_PATH="coverage/pythonSelenium1$.coverage" NAME=" Coverage Results" MODIFIED="1666271343711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/pythonSelenium1$excel_util.coverage" NAME="excel_util Coverage Results" MODIFIED="1666101687097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/pythonSelenium1$keyword_case.coverage" NAME="keyword_case Coverage Results" MODIFIED="1666101009872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/pythonSelenium1$read_ini.coverage" NAME="read_ini Coverage Results" MODIFIED="1666271142728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$fist_case111.coverage" NAME="fist_case111 Coverage Results" MODIFIED="1670813890433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$.coverage" NAME=" Coverage Results" MODIFIED="1670816110024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$fist_case2.coverage" NAME="fist_case2 Coverage Results" MODIFIED="1670817454779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$user_log1.coverage" NAME="user_log1 Coverage Results" MODIFIED="1670491761388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
+    <SUITE FILE_PATH="coverage/pythonSelenium1$user_log.coverage" NAME="user_log1 Coverage Results" MODIFIED="1670491513711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
+>>>>>>> 0247b64f0fbb0b5c0796e19bc53f4715e9648a9b
   </component>
 </project>

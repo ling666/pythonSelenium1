@@ -1,0 +1,13 @@
+test
+test
+2022-12-05 16:12:16,133 user_log.py <module> 18 DEBUG test1234
+2022-12-05 16:14:13,629 user_log.py ----><module> 18 DEBUG: ---->test1234
+2022-12-05 16:33:34,986 user_log.py ----><module> 25 DEBUG: ---->test1234
+2022-12-05 16:33:55,191 user_log.py ----><module> 25 DEBUG: ---->test1234
+2022-12-05 16:34:11,692 user_log.py ----><module> 25 DEBUG: ---->test1234
+2022-12-05 16:42:01,448 user_log.py ----><module> 26 DEBUG: ---->test1234
+2022-12-05 16:57:53,417 user_log.py ----><module> 28 DEBUG: ---->test1234
+2022-12-05 17:00:50,290 user_log.py ----><module> 28 DEBUG: ---->test1234
+2022-12-05 17:02:09,050 user_log.py ----><module> 29 DEBUG: ---->test1234
+2022-12-05 17:03:57,555 user_log.py ----><module> 29 DEBUG: ---->test1234
+2022-12-05 17:04:13,620 user_log.py ----><module> 29 DEBUG: ---->test1234
